@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+@import './utils/variables.scss';
+
+@font-face {
+  font-family: 'arial';
+  src: url('./fonts/arial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('./fonts/arialbd.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'metric';
+  src: url('./fonts/Metric-Light.otf') format('opentype');
+}
+
+.App {
+  font-family: 'arial';
+  font-size: 20px;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+}
+
+.header {
+  width: 100vw;
+  height: 140px;
+  background-color: $main-backgr-col;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer {
+  background-color: $main-backgr-col;
+  height: 140px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
