@@ -67,6 +67,16 @@ export const HomePage = () => {
                 </div>
                 <button className='novaCasa-btn'>{'Saiba mais      >'}</button>
             </section>
+            <section className='rewards'>
+                <div className='rewards-imgContainer'>
+                    <div className='article-image'/>
+                    <div className='rewards-imgText'>
+                        <img src={logo} alt="AEG-logo" className='logo'/>
+                        <h1>REWARDS</h1>
+                        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reprehenderit quidem fugiat autem sed excepturi!</h2>
+                    </div>
+                </div>
+            </section>
             <footer className='footer'>
                 <div className='footer-content1'>
                     <p>Lorem ipsum dolor adipisicing elit. Sequi

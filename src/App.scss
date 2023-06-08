@@ -188,6 +188,7 @@ section {
     height: 50px;
     width: 220px;
     background-color: rgba(255, 0, 0, 0.747);
+    color: $main-font-col;
   }
 }
 
@@ -246,3 +247,20 @@ section {
   height: 100%;
 }
 
+.rewards {
+  &-imgContainer {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+  }
+
+  &-imgText {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+}
